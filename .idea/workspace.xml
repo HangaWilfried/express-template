@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99466473-e038-4d5a-a8f1-34e344fee4cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controllers/auth.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/user.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middlewares/validators.middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/auth/auth.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/auth/auth.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/auth.services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/user/notification.services.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/user/user.routes.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/user/user.services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/user.services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/error.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/jwt.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/logger.middleware.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/secret.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/validations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2z31piOP4CeWw5VQk8t6dxVzpEd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "22.16.0",
+    "javascript.nodejs.core.library.typings.version": "22.15.33",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/hanga-lagoue/.nvm/versions/node/v22.16.0/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/home/hanga-lagoue/Dev/Me/express-template/node_modules/prettier",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.nodejs",
+    "ts.external.directory.path": "/home/hanga-lagoue/Dev/Me/express-template/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/controllers" />
+      <recent name="$PROJECT_DIR$/src/services" />
+      <recent name="$PROJECT_DIR$/src/middlewares" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6be00b7b0f42-JavaScript-WS-252.23309.26" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99466473-e038-4d5a-a8f1-34e344fee4cc" name="Changes" comment="" />
+      <created>1750945126891</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750945126891</updated>
+      <workItem from="1750945128177" duration="727000" />
+      <workItem from="1750945918582" duration="9250000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

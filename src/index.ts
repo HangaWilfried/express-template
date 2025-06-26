@@ -3,13 +3,13 @@ import dotenv from 'dotenv';
 import express from 'express';
 import passport from 'passport';
 
-import { prisma } from './utils/orm';
-import { STRATEGY } from './utils/jwt';
-import { ErrorHandler } from './utils/error';
-import { LoggerMiddleware } from './utils/middleware';
+import { prisma } from '@utils/orm';
+import { STRATEGY } from '@middlewares/auth.middleware';
+import { ErrorHandler } from '@middlewares/error.middleware';
+import { LoggerMiddleware } from '@middlewares/logger.middleware';
 
-import authRoutes from './controllers/auth/auth.routes';
-import userRoutes from './controllers/user/user.routes';
+import authRoutes from '@controllers/auth.routes';
+import userRoutes from '@controllers/user.routes';
 
 dotenv.config();
 

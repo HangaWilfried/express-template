@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: api
+    restart: always
+    #    volumes:
+    #      - ${HOME}/tmp:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: 2000
+      POSTGRES_USER: hangalagouewilfriedjunior
+      POSTGRES_DB: db_api

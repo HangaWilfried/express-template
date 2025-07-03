@@ -1,7 +1,7 @@
 import express from 'express';
 import { login, register } from '@services/auth.services';
 import { validate } from '@middlewares/validators.middleware';
-import { UserLoginSchema, UserRegistrationSchema } from '@validators/AuthSchema';
+import { UserLoginSchema, UserRegistrationSchema } from '@validators/auth.schema';
 
 const router = express.Router();
 

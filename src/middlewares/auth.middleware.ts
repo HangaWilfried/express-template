@@ -1,4 +1,4 @@
-import { prisma } from '../utils/orm';
+import { prisma } from '@utils/orm';
 
 import jwt from 'jsonwebtoken';
 import type { User } from '@prisma/client';

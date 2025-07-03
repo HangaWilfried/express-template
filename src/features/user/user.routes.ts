@@ -6,9 +6,9 @@ import {
   getUserById,
   editUserById,
   deleteUserById,
-} from '@services/user.services';
+} from './user.service';
 
-import { UserAccountSchema } from '@validators/user.schema';
+import { UserAccountSchema } from './user.schema';
 import { validate } from '@middlewares/validators.middleware';
 import { extractTokenInfo } from '@middlewares/auth.middleware';
 

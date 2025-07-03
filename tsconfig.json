@@ -2,11 +2,9 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
-      "@controllers/*": ["controllers/*"],
-      "@services/*": ["services/*"],
+      "@features/*": ["features/*"],
       "@middlewares/*": ["middlewares/*"],
       "@utils/*": ["utils/*"],
-      "@validators/*": ["validators/*"],
       "@types/*": ["types/*"],
       "@errors/*": ["errors/*"]
     },

@@ -35,7 +35,7 @@ Make sure you have the following installed:
 1.  Clone the repository:
 
     ```bash
-    git clone <your-repository-url>
+    git clone git@github.com:HangaWilfried/express-template.git
     cd express-template
     ```
 
@@ -66,7 +66,7 @@ This project uses Prisma with a PostgreSQL database (configured via `docker-comp
 1.  Start the database container:
 
     ```bash
-    docker-compose up -d
+    docker compose up -d
     ```
 
 2.  Run Prisma migrations to set up your database schema:

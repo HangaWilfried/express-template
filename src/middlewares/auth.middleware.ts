@@ -5,7 +5,7 @@ import type { User } from '@prisma/client';
 import type { NextFunction, Request, Response } from 'express';
 import { ExtractJwt, Strategy as JwtStrategy } from 'passport-jwt';
 
-const SECRET = 'd2lsZnJpZWQK';
+const SECRET = process.env.SECRET ?? 'MY-EXPRESS-TEMPLATE-SECRET-CODE';
 
 export const STRATEGY = new JwtStrategy(
   {

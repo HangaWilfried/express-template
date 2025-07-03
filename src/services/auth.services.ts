@@ -24,7 +24,6 @@ export const login = asyncHandler(async (req: Request, res: Response, next: Next
     user: {
       id: user.id,
       email: user.email,
-      isAdmin: user.isAdmin,
       lastname: user.lastname,
       firstname: user.firstname,
     },
@@ -40,6 +39,6 @@ export const register = asyncHandler(async(req: Request, res: Response, next: Ne
     throw new AppError('User already exists', 409);
   }
   const password = await argon.hash(newUser.password);
-  await prisma.user.create({ data: { ...newUser, password, isAdmin: true } });
+  await prisma.user.create({ data: { ...newUser, password } });
   res.status(204).end();
 })

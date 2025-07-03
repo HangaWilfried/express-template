@@ -27,7 +27,6 @@ export const generateJWT = async (user: User): Promise<string> => {
     email: user.email,
     lastname: user.lastname,
     firstname: user.firstname,
-    isAdmin: user.isAdmin,
   };
   return jwt.sign(payload, SECRET, { expiresIn: '1h' });
 };

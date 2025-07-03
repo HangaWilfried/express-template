@@ -14,7 +14,6 @@ export const getAllUsers = asyncHandler(async (req: Request, res: Response, next
         lastname: user.lastname,
         email: user.email,
         id: user.id,
-        isAdmin: user.isAdmin,
       };
     }),
   );

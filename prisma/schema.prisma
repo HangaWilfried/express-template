@@ -14,4 +14,18 @@ model User {
   email     String   @unique
   password  String
   createdAt DateTime @default(now()) @db.Timestamp(3)
+  refreshTokens RefreshToken[]
+}
+
+model RefreshToken {
+  id        String   @id @default(uuid())
+  token     String   @unique
+  userId    String
+  user      User     @relation(fields: [userId], references: [id])
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  revoked   Boolean  @default(false)
+  userAgent String?
+  ipAddress String?
 }

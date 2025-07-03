@@ -1,6 +1,7 @@
 import cors from 'cors';
 import express from 'express';
 import passport from 'passport';
+import cookieParser from 'cookie-parser';
 
 import { config } from './config';
 import { prisma } from '@utils/orm';
@@ -17,6 +18,7 @@ const PORT = config.PORT;
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use(cookieParser());
 
 app.use(httpRequestLogger);
 app.use(passport.use(STRATEGY).initialize());
